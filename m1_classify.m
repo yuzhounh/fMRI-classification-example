@@ -12,8 +12,8 @@ gunzip('fmri-classification-example-master/*.gz');
 
 filename='fmri-classification-example-master/nback_zstats1-11-21_all.nii'; % fMRI data with 45 trials
 maskname='fmri-classification-example-master/nback_mask.nii'; % mask
-x=nii2x(filename,maskname); % data
-label=kron([0:2],ones(1,15))'; % labels
+x=nii2x(filename,maskname); % data, 45*94487
+label=kron([0:2],ones(1,15))'; % labels, 45*1
 
 for shuffle=0:1 % shuffle the labels or not
     if shuffle==1

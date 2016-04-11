@@ -1,0 +1,18 @@
+A demo of pattern classification with fMRI data. Reproduced from
+Poldrack's repository.
+Copyright (C) 2016 Jing Wang
+
+Data and toolboxes:
+fMRI data, https://github.com/poldrack/fmri-classification-example
+NIFTI, http://www.mathworks.com/matlabcentral/fileexchange/8797-tools-for-nifti-and-analyze-image
+Libsvm, http://www.csie.ntu.edu.tw/~cjlin/libsvm/ 
+
+Usage:
+Run m1_main.m to play the demo. 
+
+Contact information:
+Jing Wang
+wangjing0@seu.edu.cn
+yuzhounh@163.com
+
+2016-4-11 22:51:37

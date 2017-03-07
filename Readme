@@ -2,9 +2,9 @@ A demo of pattern classification with fMRI data. Reproduced from Poldrack's repo
 Copyright (C) 2017 Jing Wang
 
 Data and toolboxes:
-fMRI data, https://github.com/poldrack/fmri-classification-example
 NIFTI, http://www.mathworks.com/matlabcentral/fileexchange/8797-tools-for-nifti-and-analyze-image
 Libsvm, http://www.csie.ntu.edu.tw/~cjlin/libsvm/ or https://github.com/cjlin1/libsvm
+fMRI data, https://github.com/poldrack/fmri-classification-example
 
 Usage:
 Run FCE.m to play the demo. 

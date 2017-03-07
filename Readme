@@ -10,10 +10,10 @@ Usage:
 Run FCE.m to play the demo. 
 
 Software versions:
-Matlab, R2015b
-NIFTI, updated 22 Jan 2014
-LIBSVM, updated 22 Dec 2016 (3.22, the latest on Github)
-fMRI data, updated 10 Feb 2016 (the latest on Github)
+Matlab R2015b, released on September 3, 2015
+NIFTI, updated on 22 Jan 2014
+LIBSVM, updated on 22 Dec 2016 (3.22, the latest on Github)
+fMRI data, updated on 10 Feb 2016 (the latest on Github)
 
 Notes:
 (1) 
@@ -32,8 +32,8 @@ compiler" first.
 After that, you could check the C++ compiler by the command "mex -setup c++" 
 according to this page:
     https://cn.mathworks.com/help/matlab/matlab_external/choose-c-or-c-compilers.html
-Then run FCE_prepare again, it will output the following information if the 
-compiler is Microsoft Visual C++ 2012:
+Then run FCE again. It will output the following information if the compiler 
+is Microsoft Visual C++ 2012, and you could get the classification results.
     uilding with 'Microsoft Visual C++ 2012 (C)'.
     MEX completed successfully.
     Building with 'Microsoft Visual C++ 2012 (C)'.
@@ -42,7 +42,6 @@ compiler is Microsoft Visual C++ 2012:
     MEX completed successfully.
     Building with 'Microsoft Visual C++ 2012'.
     MEX completed successfully.
-Then you could run LIBSVM correctly. 
 
 (3)
 Check the softwares versions in case of other errors. 

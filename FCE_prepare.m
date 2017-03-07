@@ -10,12 +10,14 @@ addpath('NIfTI_20140122/')
 % the LIBSVM toolbox
 unzip libsvm-master.zip;
 cd libsvm-master/matlab/;
+fprintf('MEX... \n');
 make;
+fprintf('\n');
 cd ../../;
 addpath(genpath('libsvm-master/'));
 
 % the example fMRI data
-unzip fmri-classification-example-master.zip;
+% unzip fmri-classification-example-master.zip;
 gunzip('fmri-classification-example-master/*.gz');
 
 % check the size of fMRI data

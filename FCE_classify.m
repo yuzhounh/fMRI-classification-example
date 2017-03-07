@@ -41,7 +41,7 @@ for shuffle=0:1 % shuffle the labels or not
             model=svmtrain(label_train, x_train, options);
             label_predict=svmpredict(label_test, x_test, model);
         catch
-            error(sprintf('Please check if LIBSVM is appropriately installed. \nSee libsvm-3.xx/matlab/README for help.'));
+            error(sprintf('Please check if LIBSVM is appropriately installed. \nSee libsvm-master/matlab/README for help.'));
         end
         
         tmp(ix_test)=label_predict;

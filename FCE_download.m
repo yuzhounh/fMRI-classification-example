@@ -4,11 +4,9 @@
 % clear,clc;
 
 fprintf('Downloading... \n');
-fprintf('NIFTI toolbox, 0.42 MB \n');
-fprintf('LIBSVM, 0.83 MB \n');
-fprintf('fmri-classification-example, 14.71 MB \n\n');
 
-% NIFTI toolbox, 0.42 MB
+% the NIFTI toolbox, 0.42 MB
+fprintf('the NIFTI toolbox, 0.42 MB \n');
 url='http://www.mathworks.com/matlabcentral/mlc-downloads/downloads/submissions/8797/versions/28/download/zip/NIfTI_20140122.zip';
 filename='NIfTI_20140122.zip';
 if ~exist(filename,'file')
@@ -19,7 +17,8 @@ if ~exist(filename,'file')
     end
 end
 
-% LIBSVM, 0.83 MB
+% the LIBSVM toolbox, 0.83 MB
+fprintf('the LIBSVM toolbox, 0.83 MB \n');
 url='https://codeload.github.com/cjlin1/libsvm/zip/master';
 filename='libsvm-master.zip';
 if ~exist(filename,'file')
@@ -30,7 +29,8 @@ if ~exist(filename,'file')
     end
 end
 
-% fmri-classification-example, 14.71 MB
+% fRMI data, 14.71 MB
+fprintf('fRMI data, 14.71 MB \n\n');
 url='https://codeload.github.com/poldrack/fmri-classification-example/zip/master';
 filename='fmri-classification-example-master.zip';
 if ~exist(filename,'file')

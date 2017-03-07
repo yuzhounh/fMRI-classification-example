@@ -11,6 +11,7 @@ Run FCE.m to play the demo.
 
 Software versions:
 Matlab R2015b, released on September 3, 2015
+C++ compiler, Microsoft Visual C++ 2012 & Microsoft Windows SDK 7.1 (C++)
 NIFTI, updated on 22 Jan 2014
 LIBSVM, updated on 22 Dec 2016 (3.22, the latest on Github)
 fMRI data, updated on 10 Feb 2016 (the latest on Github)
@@ -25,7 +26,7 @@ If the following error (or the like) occurs, please installl "a C++
 compiler" first.  
     No supported SDK or compiler was found on this computer. 
     For a list of supported compilers, see  
-    http://www.mathworks.com/support/compilers/R2013b/win64.html  
+    http://www.mathworks.com/support/compilers/R2015b/win64.html  
     Error: libsvm-master\matlab\make.m failed (line 13)
     Unable to complete successfully.
     => Please check README for detailed instructions.
@@ -34,7 +35,7 @@ according to this page:
     https://cn.mathworks.com/help/matlab/matlab_external/choose-c-or-c-compilers.html
 Then run FCE again. It will output the following information if the compiler 
 is Microsoft Visual C++ 2012, and you could get the classification results.
-    uilding with 'Microsoft Visual C++ 2012 (C)'.
+    Building with 'Microsoft Visual C++ 2012 (C)'.
     MEX completed successfully.
     Building with 'Microsoft Visual C++ 2012 (C)'.
     MEX completed successfully.

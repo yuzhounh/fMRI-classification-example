@@ -17,7 +17,7 @@ cd ../../;
 addpath(genpath('libsvm-master/'));
 
 % the example fMRI data
-% unzip fmri-classification-example-master.zip;
+unzip fmri-classification-example-master.zip;
 gunzip('fmri-classification-example-master/*.gz');
 
 % check the size of fMRI data

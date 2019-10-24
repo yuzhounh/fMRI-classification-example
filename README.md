@@ -1,4 +1,4 @@
-# A demo of pattern classification with fMRI data. 
+# A demo of pattern classification with fMRI data
 Reproduced from Poldrack's repository.  
 Copyright (C) 2017 Jing Wang
 
